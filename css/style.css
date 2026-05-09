@@ -1,0 +1,133 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-header {
+    background-color: rgba(116, 128, 196, 0.541); /* Color de fondo del header */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    /*justify-content: flex-start; /* Alinea elementos a la izquierda */
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center; /* Centra verticalmente */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre logo y texto */
+}
+
+.logo {
+    max-height: 150px; /* Ajusta la altura del logo */
+    width: auto; /* Mantiene la proporción */
+}
+
+.site-title {
+    margin: 0;
+    font-size: 24px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:rgb(207, 44, 44);
+}
+
+/* LOGIN */
+#loginPage{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.form-container{
+    width:350px;
+    padding:40px;
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(0,255,255,0.4);
+    border-radius:15px;
+    backdrop-filter:blur(10px);
+    box-shadow:0 0 20px rgba(0,255,255,0.3);
+}
+
+.form-container h2{
+    text-align:center;
+    color:cyan;
+    margin-bottom:30px;
+}
+
+.input-box{
+    position:relative;
+    margin-bottom:30px;
+}
+
+.input-box input{
+    width:100%;
+    padding:12px;
+    border:none;
+    outline:none;
+    border-bottom:2px solid cyan;
+    background:transparent;
+    color:rgb(31, 29, 29);
+}
+
+.input-box span{
+    position:absolute;
+    left:0;
+    top:12px;
+    color:#aaa;
+    transition:.3s;
+}
+
+.input-box input:focus + span,
+.input-box input:valid + span{
+    top:-10px;
+    font-size:12px;
+    color:cyan;
+}
+
+.submit-btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:cyan;
+    color:#0f172a;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+/* SISTEMA */
+#mainPage{
+    display:none;
+}
+
+header{
+    background:linear-gradient(90deg,#00ffff,#007bff);
+}
+
+.sidebar{
+    background:rgba(255,255,255,0.05);
+    min-height:100vh;
+}
+
+.nav-link{
+    color:cyan !important;
+}
+
+#micontenido{
+    background:rgba(255,255,255,0.05);
+    padding:30px;
+    border-radius:15px;
+    min-height:400px;
+}
